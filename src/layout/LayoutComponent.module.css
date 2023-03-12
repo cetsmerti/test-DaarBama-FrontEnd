@@ -1,0 +1,50 @@
+.layout {
+	display: flex;
+	height: 100vh;
+}
+
+.header {
+	height: 7vh;
+	background-color: var(--col2);
+	display: flex;
+	align-items: center;
+}
+
+.alert {
+	height: 90%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.footer {
+	text-align: center;
+	margin-bottom: 1vh;
+
+}
+
+.content {
+	padding: 1vh;
+	background-color: var(--col3);
+}
+
+.logo {
+	color: var(--col3);
+
+	font-size: 4vh;
+}
+
+.contentWrapper {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+	.content {
+		padding: 0;
+	}
+}

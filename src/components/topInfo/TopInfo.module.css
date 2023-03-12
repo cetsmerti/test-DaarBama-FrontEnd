@@ -1,0 +1,45 @@
+.wrapper {
+	height: 20%;
+	box-shadow: 0 8px 6px -6px #999;
+	width: 90%;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	display: flex;
+	align-items: center;
+	padding: 1%;
+
+}
+
+.img {
+	width: 100px;
+	margin-left: 10%;
+	margin-right: 5%;
+	border-radius: 20px;
+}
+
+.textArea {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+	.wrapper {
+		padding: 0;
+		width: 98;
+	}
+
+	.img {
+		width: 60px;
+		margin: 0;
+	}
+
+	.textArea {
+		margin-left: 10px;
+	}
+
+	.name {
+		margin: 0;
+	}
+}
